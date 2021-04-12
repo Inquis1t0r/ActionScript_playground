@@ -3,3 +3,4 @@ trace(num + 30);
 trace(num - 30);
 trace(num * 30);
 trace(num / 30);
+trace(num);
