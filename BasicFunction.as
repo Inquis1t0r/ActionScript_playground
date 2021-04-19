@@ -1,11 +1,13 @@
 var person:Object = {eyes:"brown", hair:"brown", breathing:true, fingers:10};
 
-function checkLivingOrDead(p:Object):void{
+function checkLivingOrDead(p:Object):String{
+	var status: String = ""; 
 	if(p.breathing){
-		trace("He's alive!");
+		status = "He's alive!";
 	}else{
-		trace("He's dead :(");
+		status = "He's dead :(";
 	}
+	return status;
 }
 
-checkLivingOrDead(person);
+trace(checkLivingOrDead(person));
