@@ -5,3 +5,5 @@ function checkLivingOrDead(p){
 		trace("He's dead :(");
 	}
 }
+
+checkLivingOrDead(person);
